@@ -1,0 +1,78 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "esModuleInterop": true,
+    "paths": {
+      "@core/*": [
+        "src/core/*"
+      ],
+      "@messages": [
+        "src/common/shared/messages.shared"
+      ],
+      "@modules/*": [
+        "src/common/modules/*"
+      ],
+      "@app/*": [
+        "src/app/*"
+      ],
+      "@exceptions/*": [
+        "src/common/exceptions/*"
+      ],
+      "@config": [
+        "src/common/shared/config.shared"
+      ],
+      "@codes": [
+        "src/common/shared/response.shared"
+      ],
+      "@logger": [
+        "src/common/service/logger.service"
+      ],
+      "@services/*": [
+        "src/common/services/*"
+      ],
+      "@pipes/*": [
+        "src/common/pipes/*"
+      ],
+      "@middlewares/*": [
+        "src/common/middlewares/*"
+      ],
+      "@interfaces/*": [
+        "src/common/interfaces/*"
+      ],
+      "@guards/*": [
+        "src/common/guards/*"
+      ],
+      "@decorators/*": [
+        "src/common/decorators/*"
+      ],
+      "@interceptors/*": [
+        "src/common/interceptors/*"
+      ],
+      "@utils/*": [
+        "src/common/utils/*"
+      ],
+      "@filters/*": [
+        "src/common/filters/*"
+      ],
+      "@wrappers/*": [
+        "src/common/wrappers/*"
+      ],
+      "@handlers/*": [
+        "src/common/handlers/*"
+      ]
+    }
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
